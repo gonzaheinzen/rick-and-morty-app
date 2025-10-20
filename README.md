@@ -27,7 +27,7 @@ Está contenida en un entorno reproducible usando Docker y Nginx.
 4. Ejecutar el contenedor:
    
    ```bash
-   docker run -d -p 8080:80 rick-and-morty
+   docker run -d -p 8080:80 --name rick-and-morty rick-and-morty-app
 
 5. Abrir el navegador en:
    
