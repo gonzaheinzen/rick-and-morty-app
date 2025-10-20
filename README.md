@@ -1,7 +1,11 @@
 # rick-and-morty-app
-Aplicación web para ver los personajes de la serie Rick and Morty. Con la funcionalidad de filtrar y guardar como favorito.
-Este proyecto consume la API: https://rickandmortyapi.com/
-Está contenida en un entorno reproducible usando Docker y Nginx
+Aplicación web para ver los personajes de la serie Rick and Morty. 
+
+Con las funcionalidades de filtrar, guardar como favorito y eliminar de favoritos, con persistencia a través de LocalStorage.
+
+Este proyecto consume la API: https://rickandmortyapi.com/  
+
+Está contenida en un entorno reproducible usando Docker y Nginx. 
 
 ## Cómo ejecutar
 
@@ -9,23 +13,26 @@ Está contenida en un entorno reproducible usando Docker y Nginx
    
    ```bash
    git clone https://github.com/gonzaheinzen/rick-and-morty-app.git
+   
+2. Acceder a la carpeta:
+   
+   ```bash
    cd rick-and-morty-app
 
-2. Construir la imagen:
+3. Construir la imagen:
    
    ```bash
    docker build -t rick-and-morty-app
 
-3. Ejecutar el contenedor:
+4. Ejecutar el contenedor:
    
    ```bash
    docker run -d -p 8080:80 rick-and-morty
 
-4. Abrir el navegador en:
+5. Abrir el navegador en:
    
    ```bash
    http://localhost:8080
-
 
 Tecnologías:
 HTML, CSS, JavaScript
