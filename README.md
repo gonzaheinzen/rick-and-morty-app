@@ -34,7 +34,7 @@ Está contenida en un entorno reproducible usando Docker y Nginx.
    ```bash
    http://localhost:8080
 
-Tecnologías:
+## Tecnologías
 HTML, CSS, JavaScript
 Docker
 Nginx
