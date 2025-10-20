@@ -22,7 +22,7 @@ Está contenida en un entorno reproducible usando Docker y Nginx.
 3. Construir la imagen:
    
    ```bash
-   docker build -t rick-and-morty-app
+   docker build -t rick-and-morty-app .
 
 4. Ejecutar el contenedor:
    
